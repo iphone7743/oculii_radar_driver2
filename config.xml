@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<oculii>
+
+    <header>
+        <model>Eagle-Eth-G7</model>
+        <externalImuMode>0</externalImuMode>
+        <isDataSave>false</isDataSave>
+        <dataSavePath>./</dataSavePath>
+        <isOfflineRadarData>false</isOfflineData>
+        <enableVisualizer>true</enableVisualizer>
+    </header>
+
+    <!--<camera>
+        <model>WebCam</model>
+        <source>http://127.0.0.1:8080/?action=stream</source>  
+        <imgQueueSize>4</imgQueueSize>
+        <maxDrawingRadius>150</maxDrawingRadius>
+        <extrinsicX>0.1</extrinsicX>
+        <extrinsicY>0</extrinsicY>
+        <extrinsicZ>0</extrinsicZ>
+        <extrinsicYaw>0</extrinsicYaw>
+        <extrinsicPitch>0.02</extrinsicPitch>
+        <extrinsicRoll>0</extrinsicRoll>
+        <intrinsicFx>320</intrinsicFx>
+        <intrinsicFy>320</intrinsicFy>
+        <intrinsicCx>160</intrinsicCx>
+        <intrinsicCy>90</intrinsicCy>
+    </camera>-->
+
+    <radar ID = "1">
+        <port>9910</port>
+	   <mucPort>9909</mucPort>
+        <ip>192.168.2.10</ip>
+        <mountX> 0 </mountX>
+        <mountY> 0 </mountY>
+        <mountZ> 0 </mountZ>
+        <mountYaw> 0 </mountYaw>
+        <mountPitch> 0 </mountPitch>
+        <mountRoll> 0 </mountRoll>
+    </radar>
+
+</oculii>
